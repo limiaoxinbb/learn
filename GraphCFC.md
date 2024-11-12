@@ -1,0 +1,3 @@
+# GraphCFC: A Directed Graph Based Cross-Modal Feature Complementation Approach for Multimodal Conversational Emotion Recognition（GraphCFC：一种基于有向图的跨模态特征互补方法，用于多模态会话情感识别）
+
+我们提出了一种基于有向图的跨模态特征互补（GraphCFC）模块，该模块可以有效地对上下文和交互信息进行建模。 GraphCFC 通过利用多个子空间提取器和成对跨模态互补（PairCC）策略缓解了多模态融合中的异质性差距问题。 我们从构建的图中提取各种类型的边进行编码，从而使 GNN 在执行消息传递时能够更准确地提取关键的上下文和交互信息。 此外，我们设计了一种称为 GAT-MLP 的 GNN 结构，它可以为多模态学习提供新的统一网络框架。 两个基准数据集的实验结果表明，我们的 GraphCFC 优于最先进的 (SOTA) 方法。 索引术语——对话中的情绪识别、多模态融合、图神经网络、跨模态特征互补。
